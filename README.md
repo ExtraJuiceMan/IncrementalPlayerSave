@@ -2,6 +2,11 @@
 
 A Fabric mod that implements Paper's incremental player saving to smooth out MSPT spikes from saving player data to disk. 
 
+
+Inspired by Paper's incremental player saving optimization:
+
+https://github.com/PaperMC/Paper/blob/76d2ac758cb3abe75aceefa88207443768f585c6/paper-server/patches/features/0020-Incremental-chunk-and-player-saving.patch
+
 ## Configuration Options
 ### ticksBetweenSaveAttempts
 How often the mod should go through all of the players to check if they have been saved yet and then to save them
