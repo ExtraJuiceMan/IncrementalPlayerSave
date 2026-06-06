@@ -1,9 +1,13 @@
 # IncrementalPlayerSave
 
-## Setup
+A Fabric mod that implements Paper's incremental player saving to smooth out MSPT spikes from saving player data to disk. 
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Configuration Options
+### ticksBetweenSaveAttempts
+How often the mod should go through all of the players to check if they have been saved yet and then to save them
+### ticksBetweenSavesPerPlayer
+How many ticks between each save for each player. I.e. don't save the player more often than ``ticksBetweenSavesPerPlayer`` ticks.
+### maxPlayersSavedPerAttempt 
+How many players are saved per tick, max. Capping this prevents saving players from spiking the MSPT too high.
+### enableDebugLog
+If the mod should log its actions.
