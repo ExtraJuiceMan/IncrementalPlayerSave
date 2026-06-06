@@ -3,13 +3,12 @@
 	"id": "incrementalplayersave",
 	"version": "${version}",
 	"name": "IncrementalPlayerSave",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Fabric mod that implements Paper's incremental player saving to smooth out MSPT spikes from saving player data to disk.",
 	"authors": [
 		"ExtraJuiceMan"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ExtraJuiceMan/IncrementalPlayerSave"
 	},
 	"license": "MIT",
 	"icon": "assets/incrementalplayersave/icon.png",
